@@ -28,7 +28,7 @@ MSc in computer science from INP Grenoble and BSc in applied math from MIPT.
 [Twitter](https://twitter.com/dvornik_nikita) &nbsp;
 [LinkedIn](https://www.linkedin.com/in/nikita-dvornik-660164152) &nbsp;
 [Email](mailto:dvornik.nikita@gmail.com) &nbsp;
-[CV](assets/pdf/example_pdf.pdf) &nbsp;
+[CV](assets/pdf/NIKITA_DVORNIK_CV.pdf) &nbsp;
 
 ***
 

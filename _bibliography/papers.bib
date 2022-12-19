@@ -1,83 +1,129 @@
----
----
+@string{iccv = "International Conference on Computer Vision (ICCV)"}
+@string{eccv = "European Conference on Computer Vision (ECCV)"}
+@string{iclr = "International Conference on Learning Representations (ICLR)"}
+@string{cvpr = "Conference on Computer Vision and Pattern Recognition (CVPR)"}
+@string{bmvc = "British Machine Vision Conference (BMVC)"}
+@string{neurips = "Advances in Neural Information Processing Systems (NeurIPS)"}
+@string{pami = "IEEE transactions on Pattern Analysis and Machine Intelligence (PAMI)"}
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@article{slotformer,
+  title={SlotFormer: Unsupervised Visual Dynamics Simulation with Object-Centric Models},
+  author={Wu, Ziyi and Dvornik, Nikita and Greff, Klaus and Kipf, Thomas and Garg, Animesh},
+  journal={arXiv preprint arXiv:2210.05861},
+  year={2022},
+  arxiv={2210.05861},
+  html={https://openreview.net/forum?id=TTeMp6953v4},
+  abbr={arXiv'22},
+  selected={true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{ma2022sage,
+  title={SAGE: Saliency-Guided Mixup with Optimal Rearrangements},
+  author={Ma, Avery and Dvornik, Nikita and Zhang, Ran and Pishdad, Leila and Derpanis, Konstantinos G and Fazly, Afsaneh},
+  booktitle=bmvc,
+  year={2022},
+  abbr={BMVC'22},
+  arxiv={2211.00113},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
+
+@article{slotformer_pre,
+  title={SlotFormer: Long-Term Dynamic Modeling in Object-Centric Models},
+  author={Wu, Ziyi and Dvornik, Nikita and Greff, Klaus and Jiaqi, Xi and Kipf, Thomas and Garg, Animesh},
+  journal={CRL@UAI workshop},
+  year={2022},
+  abbr={CRL'22},
+  html={https://openreview.net/forum?id=TTeMp6953v4},
+  website={https://slotformer.github.io/},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@inproceedings{graph2vid,
+  title={Flow graph to Video Grounding for Weakly-supervised Multi-Step Localization},
+  author={Dvornik, Nikita and Hadji, Isma and Pham, Hai and Bhatt, Dhaivat and Martinez, Brais and Fazly, Afsaneh and Jepson, Allan D},
+  booktitle=eccv,
+  year={2022},
+  arxiv={2210.04996},
+  code={https://github.com/SamsungLabs/Graph2Vid},
+  abbr={ECCV'22 <br /> Oral},
+  selected={true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{p3iv,
+  title={{P3IV}: Probabilistic Procedure Planning from Instructional Videos
+with Weak Supervision},
+  author={Zhao, He and Hadji, Isma and Dvornik, Nikita and Derpanis, Konstantinos G and Wildes, Richard P and Jepson, Allan D},
+  booktitle=cvpr,
+  year={2022},
+  arxiv={2205.02300},
+  code={https://github.com/SamsungLabs/P3IV},
+  abbr={CVPR'22 <br /> Oral},
+  selected={true},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{dropdtw,
+  title={{Drop-DTW}: Aligning Common Signal Between Sequences While Dropping Outliers},
+  author={Dvornik, Nikita and Hadji, Isma and Derpanis, Konstantinos G and Garg, Animesh and Jepson, Allan D},
+  booktitle=neurips,
+  year={2021},
+  arxiv={2108.11996},
+  code={https://github.com/SamsungLabs/Drop-DTW},
+  abbr={NeurIPS'21},
+  selected={true},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{SUR,
+  title={Selecting relevant features from a multi-domain representation for few-shot classification},
+  author={Dvornik, Nikita and Schmid, Cordelia and Mairal, Julien},
+  booktitle=eccv,
+  year={2020},
+  arxiv={2003.09338},
+  code={https://github.com/dvornikita/SUR},
+  abbr={ECCV'20},
+  selected={true},
+}
+
+@inproceedings{divcoop,
+  title={Diversity with cooperation: Ensemble methods for few-shot classification},
+  author={Dvornik, Nikita and Schmid, Cordelia and Mairal, Julien},
+  booktitle=iccv,
+  year={2019},
+  arxiv={1903.11341},
+  code={https://github.com/dvornikita/fewshot_ensemble},
+  abbr={ICCV'19},
+  selected={true},
+}
+
+@article{dvornik2019importance,
+  title={On the importance of visual context for data augmentation in scene understanding},
+  author={Dvornik, Nikita and Mairal, Julien and Schmid, Cordelia},
+  journal=pami,
+  year={2019},
+  arxiv={1809.02492},
+  code={https://github.com/dvornikita/context_aug},
+  abbr={TPAMI'19},
+}
+
+
+@inproceedings{dvornik2018modeling,
+  title={Modeling visual context is key to augmenting object detection datasets},
+  author={Dvornik, Nikita and Mairal, Julien and Schmid, Cordelia},
+  booktitle=eccv,
+  year={2018},
+  arxiv={1807.07428},
+  code={https://github.com/dvornikita/context_aug},
+  abbr={ECCV'18},
+  selected={true},
+}
+
+@inproceedings{dvornik2017blitznet,
+  title={Blitznet: A real-time deep network for scene understanding},
+  author={Dvornik, Nikita and Shmelkov, Konstantin and Mairal, Julien and Schmid, Cordelia},
+  booktitle=iccv,
+  year={2017},
+  arxiv={1708.02813},
+  code={https://github.com/dvornikita/blitznet},
+  abbr={ICCV'17},
+  selected={true},
 }

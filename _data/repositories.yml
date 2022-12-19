@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - dvornikita
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - dvornikita/fewshot_ensemble
+  - dvornikita/SUR
+  - dvornikita/context_aug
+  - dvornikita/Graph2Vid
+  - dvornikita/blitznet
+  - SamsungLabs/Drop-DTW

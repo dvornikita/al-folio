@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Scientist in Machine Learning and Computer Vision
+subtitle: PhD in Machine Learning and Computer Vision
 
 profile:
   align: right

@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
 I am a research scientist at Samsung AI Center Toronto, working on video understanding.
 
-Previously, I was a postdoc at UofT working on unsupervised learning from visual observations, research intern at Uber ATG working on autonomus driving, PhD at Inria Grenoble working on visual understanding and few-shot learning, MSc in computer science at INP Grenoble, and BSc in applied math at MIPT. 
+Previously, I was a postdoc at UofT working on unsupervised learning from visual observations, research intern at Uber ATG working on autonomous driving, PhD at Inria Grenoble working on visual understanding and few-shot learning, MSc in computer science at INP Grenoble, and BSc in applied math at MIPT. 
 <br />
 
 [Google scholar](https://scholar.google.com/citations?user=UOLJQTIAAAAJ&hl=en) &nbsp;
